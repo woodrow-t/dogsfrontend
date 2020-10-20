@@ -5,7 +5,7 @@ import Display from "./Display";
 import Form from "./Form";
 function App() {
   // URL VARIABLE
-  const url = "http://localhost:4500"
+  const url = "https://wtdogsbackend.herokuapp.com"
   // STATE TO HOLD DOGS
   const [dogs, setDogs] = React.useState([])
   //Empty dog for Form
